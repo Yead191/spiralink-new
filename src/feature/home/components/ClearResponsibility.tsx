@@ -1,7 +1,6 @@
 import BadgeHero from "@/shared/BadgeHero";
 import { Asterisk, BadgeCheck } from "lucide-react";
 import React from "react";
-import { PiSealCheck } from "react-icons/pi";
 
 export default function ClearResponsibility() {
   const partnerItems = [
@@ -23,7 +22,7 @@ export default function ClearResponsibility() {
       <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 lg:mb-20 gap-8">
         <div>
           <div>
-            <BadgeHero label="Clear responsibility" />
+            <BadgeHero label="Clear Responsibility" />
             <h1 className="font-semibold lg:text-[78px] text-[32px]leading-[40px] lg:leading-[78px] mt-8 lg:mt-10 relative z-10 tracking-[-6%] ">
               Everyone knows who is responsible for what.{" "}
             </h1>
@@ -44,7 +43,7 @@ export default function ClearResponsibility() {
       {/* Main Responsibilities Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
         {/* Partner Responsibility Box */}
-        <div className="glass-box p-8 md:p-10 lg:p-14 rounded-[24px]  border border-white/10 flex flex-col min-h-[300px] lg:min-h-[420px] relative">
+        <div className="glass-box p-8 md:p-10 lg:p-14 rounded-[24px] border border-white/10 flex flex-col min-h-[300px] lg:min-h-[420px] relative">
           <h3 className="text-white text-[24px] font-semibold absolute top-10 left-10 pointer-events-none">
             Partner:
           </h3>

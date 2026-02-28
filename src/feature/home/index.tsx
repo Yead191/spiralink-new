@@ -2,6 +2,7 @@ import HomeBanner from "./components/HomeBanner";
 import CoBranded from "./components/CoBranded";
 import ChooseExperts from "./components/ChooseExperts";
 import ClearResponsibility from "./components/ClearResponsibility";
+import DirectCommunication from "./components/DirectCommunication";
 
 export default function HomePage() {
   return (
@@ -17,6 +18,7 @@ export default function HomePage() {
       <CoBranded />
       <ChooseExperts />
       <ClearResponsibility />
+      <DirectCommunication />
     </section>
   );
 }
