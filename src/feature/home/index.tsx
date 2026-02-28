@@ -1,5 +1,6 @@
 import HomeBanner from "./components/HomeBanner";
 import CoBranded from "./components/CoBranded";
+import ChooseExperts from "./components/ChooseExperts";
 
 export default function HomePage() {
   return (
@@ -13,6 +14,7 @@ export default function HomePage() {
     >
       <HomeBanner />
       <CoBranded />
+      <ChooseExperts />
     </section>
   );
 }

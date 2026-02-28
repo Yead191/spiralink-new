@@ -50,9 +50,10 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className={`fixed top-0 z-50 w-full transition-all duration-500 navbar-container px-4 mt-4 ${
-          showNavbar ? "translate-y-0" : "-translate-y-28"
-        }`}
+        // className={`fixed top-0 z-50 w-full transition-all duration-500 navbar-container px-4 mt-4 ${
+        //   showNavbar ? "translate-y-0" : "-translate-y-28"
+        // }`}
+        className={`fixed top-0 z-50 w-full transition-all duration-500 navbar-container px-4 mt-4`}
       >
         <div
           className={`container mx-auto px-2 lg:px-4 py-0.5 lg:py-2 transition-colors duration-300 bg-[#374151]/15 rounded-full`}

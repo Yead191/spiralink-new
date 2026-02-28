@@ -26,7 +26,7 @@
     @apply flex justify-center items-center;
   }
   .page-title {
-    @apply text-4xl lg:text-[78px]  font-semibold 2xl:font-bold mb-6 leading-tight md:leading-[1.2] xl:leading-[1.1] tracking-tight md:tracking-[-3px] text-white;
+    @apply text-[40px] md:text-[56px] lg:text-[78px]  font-semibold 2xl:font-bold mb-6 leading-tight md:leading-[1.2] xl:leading-[1.1] tracking-tight md:tracking-[-3px] text-white;
   }
   .box-title {
     @apply text-white font-bold lg:text-[56px] md:text-[40px] text-[32px] lg:leading-[66px] md:leading-[48px] leading-[40px];
