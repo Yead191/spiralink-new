@@ -6,11 +6,21 @@ export default function ChooseExperts() {
   return (
     <section className="py-8 lg:py-16 container min-h-screen">
       {/* TOP */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-4">
         {/* left side */}
         <div>
-          <BadgeHero label="Clients choose experts" />
-          <h4 className="font-semibold lg:text-[40px] md:text-[32px] text-[24px] leading-[32px] md:leading-[40px] lg:leading-[48px] mt-8 lg:mt-10">
+          <div className="relative flex items-center justify-center md:justify-start md:items-start">
+            <BadgeHero label="Clients choose experts" />
+            <Image
+              draggable={false}
+              src="/assets/lines/home/expert-line.png"
+              alt="Choose Experts"
+              width={400}
+              height={400}
+              className="w-fit h-full md:h-[300px] object-contain absolute top-2/6 left-3/7 z-0 hidden md:block lg:hidden"
+            />
+          </div>
+          <h4 className="font-semibold lg:text-[40px] md:text-[32px] text-[24px] leading-[32px] md:leading-[40px] lg:leading-[48px] mt-8 lg:mt-10 relative z-10 text-center md:text-left">
             Call centers are not known for AI operations. And that is fine.
             Co-branding shows clients you made a strategic choice:
           </h4>
@@ -23,11 +33,11 @@ export default function ChooseExperts() {
             alt="Choose Experts"
             width={400}
             height={400}
-            className="w-fit h-[300px] object-contain hidden lg:block relative z-10"
+            className="w-fit h-[300px] object-contain block md:hidden lg:block relative z-10"
           />
           {/* Bottom Right SVG Line */}
           <svg
-            className="absolute -right-[44%] lg:-right-[1268%] bottom-0 lg:-bottom-[330px] h-[274px] lg:h-[400px] z-0  lg:block pointer-events-none hidden lg:scale-150"
+            className="absolute -right-[1144%] lg:-right-[1418%] xl:-right-[1268%] bottom-0 lg:-bottom-[330px] h-[274px] lg:h-[400px] z-0  xl:block pointer-events-none hidden lg:scale-150"
             viewBox="0 0 5000 294"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -54,9 +64,9 @@ export default function ChooseExperts() {
         </div>
       </div>
       {/* BOTTOM */}
-      <div className="flex flex-col md:flex-row gap-4 lg:gap-16 items-center mt-10">
+      <div className="flex flex-col-reverse md:flex-row gap-8 lg:gap-16 items-center mt-10">
         {/* left side */}
-        <div className="lg:w-3/5 flex justify-center items-start">
+        <div className="lg:w-3/5 flex justify-center items-start ">
           <Image
             src={"/assets/images/home/export2.png"}
             alt="Choose Experts"
@@ -67,7 +77,7 @@ export default function ChooseExperts() {
           />
         </div>
         {/* right side */}
-        <div className="w-3/4 ">
+        <div className="lg:w-3/4 ">
           <h1 className="lg:text-[78px] md:text-[32px] text-[40px] max-w-[650px] font-semibold tracking-[-6%] leading-[40px] md:leading-[40px] lg:leading-[78px] relative z-10 ">
             Partnering with specialists instead of pretending to build
             everything yourself.
