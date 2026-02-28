@@ -3,6 +3,7 @@ import CoBranded from "./components/CoBranded";
 import ChooseExperts from "./components/ChooseExperts";
 import ClearResponsibility from "./components/ClearResponsibility";
 import DirectCommunication from "./components/DirectCommunication";
+import SpiralinkDelivers from "./components/SpiralinkDelivers";
 
 export default function HomePage() {
   return (
@@ -19,6 +20,7 @@ export default function HomePage() {
       <ChooseExperts />
       <ClearResponsibility />
       <DirectCommunication />
+      <SpiralinkDelivers />
     </section>
   );
 }

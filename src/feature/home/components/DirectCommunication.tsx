@@ -19,10 +19,10 @@ export default function DirectCommunication() {
         backgroundPosition: "top",
         backgroundRepeat: "no-repeat",
       }}
-      className="relative text-white pt-8 pb-16 lg:pt-16 lg:pb-32"
+      className="relative text-white pt-8 pb-16 lg:pt-16 lg:pb-16"
     >
       <div className="container">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-10 lg:gap-20 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-20 items-center">
           {/* Left Column - Content */}
           <div className="lg:col-span-7 space-y-8">
             <div className="w-fit">
@@ -81,7 +81,7 @@ export default function DirectCommunication() {
                 width={700}
                 height={500}
                 draggable={false}
-                className="absolute -bottom-20 lg:bottom-20 2xl:-bottom-20 lg:-right-40 2xl:right-0 z-0 w-fit object-contain h-[400px] 2xl:h-[400px] opacity-70 scale-150 md:scale-200 "
+                className="absolute -bottom-20 lg:bottom-20 2xl:-bottom-20 lg:-right-40 2xl:right-0 z-0 w-fit object-contain h-[400px] 2xl:h-[400px] opacity-70 scale-150 lg:scale-200 "
               />
             </div>
           </div>
