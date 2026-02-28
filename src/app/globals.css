@@ -28,6 +28,12 @@
   .page-title {
     @apply text-4xl lg:text-[78px]  font-semibold 2xl:font-bold mb-6 leading-tight md:leading-[1.2] xl:leading-[1.1] tracking-tight md:tracking-[-3px] text-white;
   }
+  .box-title {
+    @apply text-white font-bold lg:text-[56px] md:text-[40px] text-[32px] lg:leading-[66px] md:leading-[48px] leading-[40px];
+  }
+  .box-subtitle {
+    @apply text-[#C175FC]  lg:text-2xl md:text-xl text-xl font-semibold leading-relaxed;
+  }
 }
 
 body {
@@ -64,3 +70,31 @@ body {
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
+
+.glass-box {
+  position: relative;
+  background: linear-gradient(
+    304.65deg,
+    rgba(255, 255, 255, 0.05) 13.81%,
+    rgba(153, 153, 153, 0.0332332) 33.55%,
+    rgba(153, 153, 153, 0.0125) 81.13%
+  );
+  backdrop-filter: blur(45px);
+}
+
+/* .glass-box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  background: linear-gradient(
+    324.32deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(153, 153, 153, 0.15)
+  );
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+} */

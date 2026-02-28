@@ -1,4 +1,5 @@
 import HomeBanner from "./components/HomeBanner";
+import CoBranded from "./components/CoBranded";
 
 export default function HomePage() {
   return (
@@ -11,6 +12,7 @@ export default function HomePage() {
       className="min-h-screen overflow-hidden"
     >
       <HomeBanner />
+      <CoBranded />
     </section>
   );
 }
