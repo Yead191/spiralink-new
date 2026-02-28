@@ -4,7 +4,7 @@ import React from "react";
 
 export default function ChooseExperts() {
   return (
-    <section className="py-8 lg:py-16 container min-h-screen">
+    <section className="py-8 lg:py-16 container">
       {/* TOP */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-4">
         {/* left side */}

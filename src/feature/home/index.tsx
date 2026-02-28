@@ -1,6 +1,7 @@
 import HomeBanner from "./components/HomeBanner";
 import CoBranded from "./components/CoBranded";
 import ChooseExperts from "./components/ChooseExperts";
+import ClearResponsibility from "./components/ClearResponsibility";
 
 export default function HomePage() {
   return (
@@ -15,6 +16,7 @@ export default function HomePage() {
       <HomeBanner />
       <CoBranded />
       <ChooseExperts />
+      <ClearResponsibility />
     </section>
   );
 }
