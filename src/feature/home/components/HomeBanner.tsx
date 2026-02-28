@@ -35,7 +35,7 @@ export default function HomeBanner() {
                 alt="line"
                 width={600}
                 height={600}
-                className="absolute bottom-16 -left-[36%]  lg:w-fit z-0 object-contain pointer-events-none scale-200 lg:scale-100 md:hidden"
+                className="absolute bottom-10 -left-[38%]  lg:w-fit z-0 object-contain pointer-events-none scale-200 lg:scale-100 md:hidden"
                 draggable={false}
               />
             </p>

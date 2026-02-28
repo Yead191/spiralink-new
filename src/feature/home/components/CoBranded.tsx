@@ -14,15 +14,15 @@ export default function CoBranded() {
   return (
     <section className="container">
       <div className="  relative glass-box mb-8 mt-8 md:mt-16  lg:mb-16 lg:-mt-8 rounded-3xl border border-white/8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-20 items-center p-4 py-8 md:p-8 md:py-14 lg:p-14 ">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-14 items-center p-4 py-8 md:p-8 md:py-14 lg:p-14 ">
           {/* Left Content */}
           <div className="order-2 md:order-1">
             <h2 className="box-title mb-6 lg:mb-12">What co-branded means</h2>
-            <p className="box-subtitle mb-8">
+            <p className="box-subtitle mb-8 lg:text-nowrap">
               Both SpiraLink and the partner are visible to the end client.
             </p>
 
-            <ul className="space-y-6 mb-10">
+            <ul className="space-y-2 mb-10">
               {listItems.map((item, index) => (
                 <li key={index} className="flex items-start gap-4">
                   <PiSealCheck className="text-primary w-6 h-6 mt-1 shrink-0" />
@@ -58,7 +58,7 @@ export default function CoBranded() {
               </div>
 
               {/* Apple Inc. Card Overlay */}
-              <div className="absolute bottom-2/16 md:bottom-1/3 lg:bottom-16 right-[-200px] md:right-[-180px] lg:right-[-140px] z-20">
+              <div className="absolute bottom-2/18 md:bottom-1/3 lg:bottom-16 right-[-190px] md:right-[-180px] lg:right-[-140px] z-20">
                 <div className="glass-box p-5 md:min-w-[220px] rounded-[12px] border border-white/8">
                   <h4 className="text-white font-semibold text-lg mb-1">
                     Apple Inc.
