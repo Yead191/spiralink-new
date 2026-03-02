@@ -4,6 +4,7 @@ import ChooseExperts from "./components/ChooseExperts";
 import ClearResponsibility from "./components/ClearResponsibility";
 import DirectCommunication from "./components/DirectCommunication";
 import SpiralinkDelivers from "./components/SpiralinkDelivers";
+import DeliveryWorks from "./components/DeliveryWorks";
 
 export default function HomePage() {
   return (
@@ -21,6 +22,7 @@ export default function HomePage() {
       <ClearResponsibility />
       <DirectCommunication />
       <SpiralinkDelivers />
+      <DeliveryWorks />
     </section>
   );
 }
