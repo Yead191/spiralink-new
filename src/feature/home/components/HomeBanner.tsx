@@ -7,7 +7,7 @@ import React from "react";
 export default function HomeBanner() {
   const { lg, md } = Grid.useBreakpoint();
   return (
-    <section className="pr-4">
+    <section className="px-2">
       <section
         style={{
           backgroundImage: "url('/assets/bg/home/banner-bg.png')",
@@ -15,7 +15,7 @@ export default function HomeBanner() {
           backgroundPosition: "top right",
           backgroundRepeat: "no-repeat",
         }}
-        className=" lg:min-h-screen mt-4  relative "
+        className=" lg:min-h-screen mt-2  relative rounded-2xl"
       >
         <div className="container grid grid-cols-1 md:grid-cols-2 pt-26 md:pt-48 pb-28 ">
           {/* left */}

@@ -5,6 +5,7 @@ import ClearResponsibility from "./components/ClearResponsibility";
 import DirectCommunication from "./components/DirectCommunication";
 import SpiralinkDelivers from "./components/SpiralinkDelivers";
 import DeliveryWorks from "./components/DeliveryWorks";
+import BuiltFor from "./components/BuiltFor";
 
 export default function HomePage() {
   return (
@@ -23,6 +24,7 @@ export default function HomePage() {
       <DirectCommunication />
       <SpiralinkDelivers />
       <DeliveryWorks />
+      <BuiltFor />
     </section>
   );
 }
