@@ -1,5 +1,6 @@
 import React from "react";
 import CoBrandingBanner from "./components/banner/CoBrandingBanner";
+import Communication from "./components/Communication";
 
 export default function CoBrandingPage() {
   return (
@@ -12,6 +13,7 @@ export default function CoBrandingPage() {
       className="lg:min-h-screen overflow-hidden"
     >
       <CoBrandingBanner />
+      <Communication />
     </section>
   );
 }

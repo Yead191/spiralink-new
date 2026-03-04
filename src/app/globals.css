@@ -34,6 +34,9 @@
   .box-subtitle {
     @apply text-[#C175FC]  lg:text-2xl md:text-xl text-xl font-semibold leading-relaxed;
   }
+  .point-heading {
+    @apply text-[#C175FC]  lg:text-2xl text-xl font-semibold leading-[26px] md:leading-[30px] lg:leading-[34px] tracking-[-4%];
+  }
 }
 
 body {
