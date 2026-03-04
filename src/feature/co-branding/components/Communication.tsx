@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Communication() {
   return (
-    <section className="max-w-6xl mx-auto py-8 lg:py-16 relative overflow-hidden px-4 lg:px-5">
+    <section className="container py-8 lg:py-16 relative overflow-hidden ">
       <div className="glass-box rounded-[24px] p-4 md:p-8 lg:px-20 lg:py-16 relative overflow-hidden border border-white/10">
         {/* SVG Line */}
         <svg
