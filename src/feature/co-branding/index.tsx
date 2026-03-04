@@ -9,7 +9,7 @@ export default function CoBrandingPage() {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
-      className="min-h-screen overflow-hidden"
+      className="lg:min-h-screen overflow-hidden"
     >
       <CoBrandingBanner />
     </section>
