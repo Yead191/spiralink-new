@@ -27,7 +27,7 @@ export default function SpiralinkDelivers() {
               }}
               className={`glass-box p-8  rounded-[32px]  flex flex-col min-w-[320px] md:min-w-[380px] lg:min-w-0 transition-all duration-500 ${
                 card.highlight && lg
-                  ? "lg:-mt-12 border-2 border-primary/30  bg-[#010403A6]"
+                  ? "lg:-translate-y-12 border-2 border-primary/30  bg-[#010403A6]"
                   : "border-white/10 border"
               }`}
             >

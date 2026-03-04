@@ -25,7 +25,7 @@ export default function CoBrandingBannerRight() {
       </div>
       {/* Top Left SVG Line */}
       <svg
-        className="absolute -left-[1450px] h-[300px] -top-[260px] z-0  pointer-events-none  md:hidden"
+        className="absolute -left-[1430px] h-[300px] -top-[260px] z-0  pointer-events-none  md:hidden"
         viewBox="-863 0 5000 294"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

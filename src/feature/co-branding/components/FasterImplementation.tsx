@@ -37,7 +37,7 @@ export default function FasterImplementation() {
               {CO_BRANDED_ITEMS.map((item, idx) => (
                 <li key={idx} className="flex items-start gap-3">
                   <BadgeCheck className="text-primary w-6 h-6 shrink-0 mt-1" />
-                  <span className="text-white/70 text-[16px] lg:text-lg md:text-xl leading-snug tracking-[2%]">
+                  <span className="text-white/80 text-[16px] lg:text-lg md:text-xl leading-snug tracking-[2%]">
                     {item}
                   </span>
                 </li>
@@ -61,7 +61,7 @@ export default function FasterImplementation() {
               {WHITE_LABEL_ITEMS.map((item, idx) => (
                 <li key={idx} className="flex items-start gap-3">
                   <BadgeCheck className="text-primary w-6 h-6 shrink-0 mt-1" />
-                  <span className="text-white/70 text-[16px] lg:text-lg leading-snug tracking-[2%]">
+                  <span className="text-white/80 text-[16px] lg:text-lg leading-snug tracking-[2%]">
                     {item}
                   </span>
                 </li>

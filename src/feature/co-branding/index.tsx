@@ -2,6 +2,7 @@ import React from "react";
 import CoBrandingBanner from "./components/banner/CoBrandingBanner";
 import Communication from "./components/Communication";
 import FasterImplementation from "./components/FasterImplementation";
+import CallCenters from "./components/CallCenters";
 
 export default function CoBrandingPage() {
   return (
@@ -16,6 +17,7 @@ export default function CoBrandingPage() {
       <CoBrandingBanner />
       <Communication />
       <FasterImplementation />
+      <CallCenters />
     </section>
   );
 }
