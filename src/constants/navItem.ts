@@ -1,6 +1,6 @@
 const navItems = [
   { labelKey: "Partnership", href: "/" },
-  { labelKey: "Collaboration", href: "/collaboration" },
+  { labelKey: "Co-Branding", href: "/co-branding" },
   { labelKey: "Operations", href: "/operations" },
   { labelKey: "Voicebot", href: "/voicebot" },
   { labelKey: "24/7", href: "/operations24" },

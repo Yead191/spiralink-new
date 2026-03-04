@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 
 export default function BuiltFor() {
   return (
-    <section className=" py-8 lg:py-16">
+    <section className=" pt-8 lg:pt-16 pb-16 lg:pb-32">
       {/* Header Section */}
       <div className="flex flex-col lg:justify-between lg:items-start container">
         <div className="relative">

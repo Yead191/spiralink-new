@@ -50,6 +50,7 @@ export default function CoBranded() {
                     alt="SL Logo"
                     width={600}
                     height={600}
+                    draggable={false}
                     className="h-[120px] md:h-[152px] lg:h-[250px] w-fit object-contain"
                   />
                   {/* Purple Dot on the ring */}
@@ -58,8 +59,8 @@ export default function CoBranded() {
               </div>
 
               {/* Apple Inc. Card Overlay */}
-              <div className="absolute bottom-2/18 md:bottom-1/3 lg:bottom-16 right-[-190px] md:right-[-180px] lg:right-[-140px] z-20">
-                <div className="glass-box p-5 md:min-w-[220px] rounded-[12px] border border-white/8">
+              <div className="absolute bottom-2/18 md:bottom-1/3 lg:bottom-16 right-[-170px] md:right-[-180px] lg:right-[-140px] z-20">
+                <div className="glass-box p-3 lg:p-5 md:min-w-[220px] rounded-[12px] border border-white/8">
                   <h4 className="text-white font-semibold text-lg mb-1">
                     Apple Inc.
                   </h4>
