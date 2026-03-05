@@ -3,6 +3,7 @@ import CoBrandingBanner from "./components/banner/CoBrandingBanner";
 import Communication from "./components/Communication";
 import FasterImplementation from "./components/FasterImplementation";
 import CallCenters from "./components/CallCenters";
+import ClearAccountability from "./components/ClearAccountability";
 
 export default function CoBrandingPage() {
   return (
@@ -18,6 +19,7 @@ export default function CoBrandingPage() {
       <Communication />
       <FasterImplementation />
       <CallCenters />
+      <ClearAccountability />
     </section>
   );
 }
