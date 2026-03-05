@@ -6,6 +6,8 @@ import CallCenters from "./components/CallCenters";
 import ClearAccountability from "./components/ClearAccountability";
 import ProfessionalServices from "./components/ProfessionalServices";
 import CommonConcern from "./components/CommonConcern";
+import WhiteLevel from "./components/WhiteLevel";
+import Image from "next/image";
 
 export default function CoBrandingPage() {
   return (
@@ -24,6 +26,15 @@ export default function CoBrandingPage() {
       <ClearAccountability />
       <ProfessionalServices />
       <CommonConcern />
+      <WhiteLevel />
+      <Image
+        src="/assets/bg/Spiralink.png"
+        alt="line"
+        width={1400}
+        height={800}
+        draggable={false}
+        className="w-full h-fit object-contain container lg:translate-y-28 translate-y-4 md:translate-y-10"
+      />
     </section>
   );
 }
