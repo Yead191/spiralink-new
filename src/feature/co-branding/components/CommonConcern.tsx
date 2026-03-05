@@ -24,7 +24,7 @@ export default function CommonConcern() {
             <p className="point-heading">Here is why that fear is misplaced:</p>
             {/* small and large screen svg */}
             <svg
-              className="absolute -left-[1478%] lg:-left-[1538%]   h-[274px] -top-[140px] lg:h-[400px] lg:-top-[250px]  z-0  pointer-events-none scale-120 md:hidden lg:block"
+              className="absolute -left-[4717px] lg:-left-[1538%]   h-[274px] -top-[140px] lg:h-[400px] lg:-top-[250px]  z-0  pointer-events-none scale-120 md:hidden lg:block"
               viewBox="-4163 0 5000 294"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
