@@ -13,7 +13,7 @@ export default function ClearAccountability() {
         className="w-full h-fit object-contain container"
       />
       {/* clear accountability card */}
-      <div className="glass-box p-8 py-12 md:p-12 md:py-16 lg:p-16 lg:py-20 rounded-[24px] border border-white/10 -translate-y-9 md:-translate-y-18 lg:-translate-y-30">
+      <div className="glass-box p-8 py-12 md:p-12 md:py-16 lg:p-16 lg:py-20 rounded-[24px] border border-white/10 -mt-8 md:-mt-16 lg:-mt-32">
         <h2 className="box-title mb-10 md:mb-14 text-center! lg:text-left!">
           Clear accountability
         </h2>
