@@ -85,19 +85,13 @@ body {
   backdrop-filter: blur(45px);
 }
 
-/* .glass-box::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  padding: 1px;
-  background: linear-gradient(
-    324.32deg,
-    rgba(255, 255, 255, 0.15),
-    rgba(153, 153, 153, 0.15)
+.custom-dashed-border {
+  background-image: linear-gradient(
+    to right,
+    currentColor 1px,
+    transparent 1px
   );
-  mask:
-    linear-gradient(#fff 0 0) content-box,
-    linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-} */
+  background-position: bottom;
+  background-size: 9px 2px;
+  background-repeat: repeat-x;
+}

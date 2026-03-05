@@ -20,7 +20,7 @@ export default function ProfessionalServices() {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}
-      className="py-11 lg:py-24 overflow-hidden relative lg:my-16"
+      className="py-11 lg:pt-24 overflow-hidden relative lg:mt-16"
     >
       <div className="container flex flex-col items-center text-center z-10 relative">
         <h2 className="section-title mb-6 lg:mb-8 max-w-[420px] lg:max-w-[750px]">

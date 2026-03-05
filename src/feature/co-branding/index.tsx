@@ -5,6 +5,7 @@ import FasterImplementation from "./components/FasterImplementation";
 import CallCenters from "./components/CallCenters";
 import ClearAccountability from "./components/ClearAccountability";
 import ProfessionalServices from "./components/ProfessionalServices";
+import CommonConcern from "./components/CommonConcern";
 
 export default function CoBrandingPage() {
   return (
@@ -22,6 +23,7 @@ export default function CoBrandingPage() {
       <CallCenters />
       <ClearAccountability />
       <ProfessionalServices />
+      <CommonConcern />
     </section>
   );
 }

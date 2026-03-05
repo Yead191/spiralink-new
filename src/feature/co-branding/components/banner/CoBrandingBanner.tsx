@@ -3,7 +3,6 @@ import GlowingTag from "@/shared/GlowingTag";
 import React from "react";
 import CoBrandingBannerRight from "./CoBrandingBannerRight";
 import BannerBottom from "./BannerBottom";
-import { Asterisk } from "lucide-react";
 
 export default function CoBrandingBanner() {
   return (
