@@ -3,6 +3,8 @@ import ExistenceBanner from "./components/ExistenceBanner";
 import ProblemWeSaw from "./components/ProblemWeSaw";
 import WhatWeBelive from "./components/WhatWeBelive";
 import StartedSpiralink from "./components/StartedSpiralink";
+import TheTeam from "./components/TheTeam";
+import WeBuilding from "./components/WeBuilding";
 
 export default function OurExistencePage() {
   return (
@@ -18,6 +20,8 @@ export default function OurExistencePage() {
       <ProblemWeSaw />
       <WhatWeBelive />
       <StartedSpiralink />
+      <TheTeam />
+      <WeBuilding />
     </section>
   );
 }

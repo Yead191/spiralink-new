@@ -4,9 +4,9 @@ import Marquee from "react-fast-marquee";
 
 export default function StartedSpiralink() {
   const marqueeItems = [
-    "There is no separate AI environment to manage.",
-    "No duplicate workflows.",
-    "No manual syncing between tools.",
+    "One partner.",
+    "Full ownership.",
+    "No finger-pointing.",
   ];
   return (
     <section className="container py-8 lg:py-16 flex flex-col text-center items-center justify-center">
