@@ -20,7 +20,7 @@ export default function StructuredDelivery() {
       <h2 className="page-title mb-6 lg:mb-8  text-center lg:text-[72px]!">
         How delivery is structured
       </h2>
-      <p className="section-subtitle lg:text-xl! md:mb-8! lg:mb-12! text-center">
+      <p className="section-subtitle lg:text-xl! mb-10! lg:mb-12! text-center">
         Even in a white-label setup, the delivery process remains controlled.
       </p>
 
