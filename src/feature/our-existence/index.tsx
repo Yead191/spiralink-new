@@ -1,6 +1,7 @@
 import React from "react";
 import ExistenceBanner from "./components/ExistenceBanner";
 import ProblemWeSaw from "./components/ProblemWeSaw";
+import WhatWeBelive from "./components/WhatWeBelive";
 
 export default function OurExistencePage() {
   return (
@@ -14,6 +15,7 @@ export default function OurExistencePage() {
     >
       <ExistenceBanner />
       <ProblemWeSaw />
+      <WhatWeBelive />
     </section>
   );
 }
