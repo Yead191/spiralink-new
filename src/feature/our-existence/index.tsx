@@ -2,6 +2,7 @@ import React from "react";
 import ExistenceBanner from "./components/ExistenceBanner";
 import ProblemWeSaw from "./components/ProblemWeSaw";
 import WhatWeBelive from "./components/WhatWeBelive";
+import StartedSpiralink from "./components/StartedSpiralink";
 
 export default function OurExistencePage() {
   return (
@@ -16,6 +17,7 @@ export default function OurExistencePage() {
       <ExistenceBanner />
       <ProblemWeSaw />
       <WhatWeBelive />
+      <StartedSpiralink />
     </section>
   );
 }

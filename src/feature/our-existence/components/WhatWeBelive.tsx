@@ -29,6 +29,7 @@ export default function WhatWeBelive() {
             width={900}
             height={900}
             alt="sense img"
+            draggable={false}
             className="h-[431px] md:h-full lg:h-[616px] w-fit object-contain"
           />
         </div>
@@ -38,7 +39,7 @@ export default function WhatWeBelive() {
             We believe call centers need an engineering{" "}
             <br className="lg:block hidden" /> partner, not a software tool.
           </h3>
-          <p className="section-subtitle lg:text-xl! mt-8 mt-6">
+          <p className="section-subtitle lg:text-xl! lg:mt-8 mt-6">
             Asking a call center to “build their own AI” is like asking them to
             build their own telephony infrastructure. It doesn’t make sense.
             <br />
