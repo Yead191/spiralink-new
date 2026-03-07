@@ -26,10 +26,9 @@ export default function StartedSpiralink() {
       </p>
       <div className="relative overflow-hidden pt-12 lg:pt-20">
         <Marquee
-          speed={80}
+          speed={40}
           gradient={false}
           pauseOnHover={false}
-          autoFill
           className="overflow-hidden"
         >
           {marqueeItems?.map((item, index) => (
