@@ -1,6 +1,5 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
-import { MenuOutlined } from "@ant-design/icons";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -99,9 +98,9 @@ export default function Navbar() {
             {/* Right Section */}
             <div className="flex items-center gap-4">
               {/* Contact & Request Demo Buttons */}
-              <div className="hidden lg:flex items-center gap-4">
+              <div className="hidden md:flex items-center gap-4">
                 <Link
-                  href="#"
+                  href="/contact"
                   className="flex items-center gap-2 bg-[#1d1f22] hover:bg-[#2F2F2F] text-white px-5 py-2.5 rounded-full transition-colors text-sm font-medium"
                 >
                   Contact <LuArrowUpRight />
