@@ -56,7 +56,7 @@ export default function MobileMenu({
         {/* Bottom Buttons */}
         <div className="flex flex-col gap-4 w-full">
           <Link
-            href="#"
+            href="/contact"
             onClick={onClose}
             className="flex items-center justify-center gap-2 bg-white text-black py-2 rounded-full text-lg font-semibold transition-transform active:scale-95"
           >
